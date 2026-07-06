@@ -1,0 +1,689 @@
+@font-face {
+    font-family: Niconne;
+    src: url('fonts/Niconne-Regular.ttf') format(ttf);
+}
+
+body{
+    font-family: sans-serif;
+    background-color:  #dee8c5;
+
+}
+
+.top-header{
+    flex-basis: 100%;
+    border-bottom: 1px solid rgb(176, 180, 173);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+
+.ul-header-1{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 90%;
+}
+
+.header a{
+    width: 100%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 2rem;
+    font-size: 20px;
+}
+
+.top-header-p{
+    font-family: Niconne;
+    margin: 0;
+    margin-left: 4%;
+    font-size: 45px;
+    font-weight: 900;
+    display: flex;
+    align-items: flex-end;
+}
+
+.top-header-p::after{
+    content: ".";
+    color: orange;
+    font-size: 45px;
+}
+
+.header-icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+i{
+    margin-left: 3%;
+}
+
+.menu{
+    position: relative;
+    margin-top: 3%;
+    left: 5%;
+    border-radius: 40px;
+    width: 90%;
+    height: 724px;
+    overflow: hidden;
+    background: linear-gradient(301deg,rgba(222, 232, 197, 1) 36%, rgba(150, 252, 255, 1) 100%);
+    display: flex;
+}
+
+.top-img-1{
+    position: relative;
+    left: 5%;
+}
+
+.top-text{
+    position: relative;
+    top: 12%;
+}
+ 
+.small-box1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin-left: 6%;
+    width: 16%;
+    padding: 5px 10px;
+    border-radius: 40px;
+} 
+
+.small-box1-p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.small-box1-img{
+    width: 33px;
+    height: 28px;
+    align-self: center;
+}
+
+.top-text-h1{
+    font-size: 75px;
+    margin-left: 6%;
+}
+
+.top-text-p{
+    position: relative;
+    bottom: 4%;
+    font-size: 22px;
+    margin-left: 6%;
+}
+
+.small2-box{
+    position: relative;
+    bottom: 4%;
+    margin-left: 56px;
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+}
+.small-box2 p{
+    border-radius: 40px;
+    width: 146%;
+    padding: 10px 5px;
+    background-color: rgb(156, 156, 156);
+    text-align: center;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.small-box3 p{
+    border-radius: 40px;
+    width: 146%;
+    padding: 10px 5px;
+    background-color: rgb(156, 156, 156);
+    text-align: center;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+.small2-box{
+    margin-left: 6%;
+}
+
+.id-instagram{
+    width: 90%;
+    height: 10%;
+    margin-left: 6%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.id-instagram a{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 17%;
+    align-self: center;
+    padding: 25px 30px;
+    text-align: center;
+    line-height: 50%;
+    border-radius: 20px;
+}
+
+.header-vegetables{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.header-vegetables-a{
+    text-decoration:  none;
+    background-color: rgb(160, 244, 255);
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.vegetables-box{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 3%;
+}
+
+.vegetables1{
+    border-radius: 40px;
+    width: 180px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background: linear-gradient(180deg,rgba(222, 232, 197, 1) 32%, rgba(171, 245, 255, 1) 100%);
+}
+
+.vegetables-p1{
+    align-self: center;
+    position: relative;
+    top: 32%;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.vegetables-img{
+    position: relative;
+    top: 15%;
+    left: 11%;
+    width: 134px;
+    height: 115px;
+    overflow: hidden;
+}
+
+.lick-background{
+    position: relative;
+    bottom: 53%;
+    left: 80%;
+}
+
+.lick-red,
+.lick-white{
+    position: relative;
+    bottom: 56%;
+    left: 71%;
+}
+
+.simpel-recipes-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13%;
+    margin-bottom: 3%;
+}
+
+.simpel-recipes-header-h1{
+    margin: 0;
+    font-size: 46px;
+}
+
+.simpel-recipes{
+    margin-left: 6%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.simpel-recipes1{
+    width: 553px;
+    height: 530px;
+    margin-top: 3%;
+    background: linear-gradient(180deg,rgba(222, 232, 197, 1) 54%, rgba(186, 252, 255, 1) 100%);
+    border-radius: 40px;
+
+}
+
+.simpel-recipes-2{
+    position: relative;
+    background-color: rgb(45, 88, 50);
+    width: 520px;
+    height: 490px;
+    margin-top: 3%;
+}
+
+
+.simpel-recipes-img1{
+    position: absolute;
+    top: 1%;
+}
+
+.simpel-recipes-img2{
+    position: absolute;
+    left: 6%;
+    bottom: 0;
+}
+
+.simpel-recipes-h3{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    position: relative;
+    left: 33%;
+    top: 6%;
+    color: rgb(255, 255, 255);
+    font-family: Niconne;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.www{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    position: relative;
+    left: 10%;
+    top: 80%;
+    opacity: .4;
+    color: rgb(255, 255, 255);
+}
+
+.simpel-recipes-img{
+    position: relative;
+    left: 5.5%;
+    border-radius: 40px;
+}
+
+.simpel-recipes-1{
+    margin-left: 6%;
+    margin-top: -2%;
+}
+
+.simpel-recipes-box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 55%;
+    margin-left: 6%;
+}
+
+.simpel-recipes-pbox1{
+    width: 50%;
+    font-size: 17px;
+    font-weight: 900;
+    opacity: .6;
+}
+
+.chef{
+    width: 90%;
+    margin-left: 6%;
+    display: flex;
+}
+
+.chef-h1{
+    margin-top: 27%;
+    font-size: 64px;
+}
+
+.chef-p{
+    font-size: 20px;
+}
+
+.chef-a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    border-radius: 20px;
+    position: relative;
+    top: 11%;
+}
+
+.chef-img{
+    position: relative;
+    background: linear-gradient(180deg,rgba(222, 232, 197, 1) 54%, rgba(186, 252, 255, 1) 100%);
+    border-radius: 40px;
+}
+
+.chef-img2{
+    position: absolute;
+    bottom: 78%;
+    left: 21%;
+}
+
+.chef-img3{
+    position: absolute;
+    bottom: 21%;
+    left: -3%;
+}
+
+.chef-img4{
+    position: absolute;
+    bottom: 77%;
+    left: 74%;
+}
+
+.chef-img5{
+    position: absolute;
+    bottom: 57%;
+    left: 86%;
+}
+
+.check-insta-header{
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.check-insta-header-img{
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-insta-header-p{
+    margin-left: 34%;
+    font-size: 20px;
+}
+
+.check-insta-header-p1{
+    font-size: 20px;
+}
+
+.check-insta-header-h1{
+    font-size: 46px;
+}
+
+.check-insta-header-img-1{
+    background: linear-gradient(180deg,rgba(222, 232, 197, 1) 36%, rgba(201, 252, 255, 1) 100%);
+    height: 50rem;
+}
+
+.check-insta-header-a{
+    text-decoration: none;
+    height: 10%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.check-insta-header-a2{
+    padding: 26px 35px;
+    width: 12%;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.check-insta-header-a1{
+    width: 100%;
+    height: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delicious-recipe-header{
+    width: 63%;
+    margin-left: 6%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delicious-recipe-header-p{
+    font-size: 19px;
+}
+
+.delicious-recipe{
+    width: 90%;
+    margin-bottom: 10%;
+    margin-left: 6%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.delicious-recipe1{
+    width: 387px;
+    height: 415px;
+}
+
+.delicious-recipe-box-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 70%;
+}
+
+
+.delicious-recipe-box1{
+    width: 70%;
+    font-size: 17px;
+    font-weight: 900;
+    opacity: .7;
+}
+
+.delicious-recipe-box2{
+    width: 50%;
+    font-size: 17px;
+    font-weight: 900;
+    opacity: .7;
+}
+
+.delicious-recipe-1{
+    font-size: 20px;
+}
+
+.delicious-recipe-img{
+    border-radius: 20px;
+}
+
+.lick-background-1{
+    position: relative;
+    top: 17%;
+    left: 77%;
+}
+
+.lick-white-1,
+.lick-red-1{
+    position: relative;
+    top: 13%;
+    left: 64%;
+}
+
+.bottom-box{
+    border: 2px solid rgb(108, 241, 168);
+    overflow: hidden;
+    width: 90%;
+    height: 507px;
+    margin-left: 6%;
+    background-color: #E7F9FD;
+    border-radius: 40px;
+    position: relative;
+}
+
+.bottom-box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 12%;
+    left: 27%;
+    width: 45%;
+}
+
+.bottom-box-img1{
+    position: relative;
+    top: 80px;
+}
+
+.bottom-box-img3{
+    position: relative;
+    left: 42%;
+    top: 80px;
+}
+
+.bottom-box-img2{
+    position: relative;
+    left: 42%;
+    bottom: 35px;
+}
+
+.bottom-box-span{
+    margin-left: 12%;
+}
+
+.bottom-box-label{
+    position: relative;
+}
+
+.bottom-box-input{
+    padding-bottom: 20%;
+    padding-top: 20%;
+    padding-left: 15%;
+    padding-right: 200%;
+    margin-top: 52%;
+    margin-left: -100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+}
+
+.bottom-box-input:focus{
+    border: 1px solid rgb(4, 0, 255);
+    box-shadow: 1px 2px 5px 2px rgb(234, 0, 255);
+}
+
+button{
+    position: absolute;
+    right: 3%;
+    bottom: -155%;
+    padding: 27px 50px;
+    border: none;
+    border-radius: 24px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0); 
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgb(208, 255, 0);
+    color: rgb(15, 15, 15);
+}
+
+.bottom-box-h1{
+    font-size: 48px;
+}
+
+.bottom-box-p{
+    font-size: 19px;
+    margin: 0;
+}
+
+.footer{
+    overflow: hidden;
+    width: 90%;
+    margin-left: 6%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(176, 180, 173);
+    margin-top: 10%;
+}
+
+.ul-footer{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.ul-a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.footer-h1{
+    font-family: Niconne;
+    font-size: 46px;
+    margin: 0;
+}
+
+.footer-h1::after{
+    content: ".";
+    color: orange;
+    font-size: 55px;
+}
+
+.footer-p{
+    margin: 0;
+    margin-bottom: 4%;
+}
+
+.end{
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+
+.end-1{
+    width: 90%;
+    display: flex;
+    margin-left: 6%;
+    justify-content: center;
+}
+
+.end-icon{
+    position: relative;
+    left: 93rem;
+    bottom: 32px;
+    display: inline;
+}
+
+.end-p{
+    margin: 0;
+}
+
+.end-span{
+    color: red;
+}
