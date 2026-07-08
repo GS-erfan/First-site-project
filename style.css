@@ -1,12 +1,21 @@
 @font-face {
-    font-family: Niconne;
-    src: url('fonts/Niconne-Regular.ttf') format(ttf);
+  font-family: lobster;
+  src: url(fonts/Lobster/lobster.eot);
+  src: url(fonts/Lobster/lobster.svg);
+  src: url(fonts/Lobster/lobster.ttf);
+  src: url(fonts/Lobster/lobster.woff);
+  src: url(fonts/Lobster/lobster.woff2);
 }
-
+@font-face {
+  font-family: inter;
+  src: url(fonts/Inter/inter.eot);
+  src: url(fonts/Inter/inter.html);
+  src: url(fonts/Inter/inter.ttf);
+  src: url(fonts/Inter/inter.woff);
+  src: url(fonts/Inter/inter.woff2);
+}
 body{
-    font-family: sans-serif;
-    /* background-color:  #dee8c5; */
-
+    font-family: inter;
 }
 
 .top-header{
@@ -39,11 +48,10 @@ body{
 }
 
 .top-header-p{
-    font-family: Niconne;
+    font-family: lobster;
     margin: 0;
     margin-left: 4%;
     font-size: 45px;
-    font-weight: 900;
     display: flex;
     align-items: flex-end;
 }
@@ -296,7 +304,7 @@ i{
     left: 33%;
     top: 6%;
     color: rgb(255, 255, 255);
-    font-family: Niconne;
+    font-family: lobster;
     font-size: 2rem;
     z-index: 1;
 }
@@ -644,9 +652,10 @@ button:active{
 }
 
 .footer-h1{
-    font-family: Niconne;
+    font-family: lobster;
     font-size: 46px;
     margin: 0;
+    font-weight: 200;
 }
 
 .footer-h1::after{
