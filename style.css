@@ -195,7 +195,7 @@ i{
 
 .header-vegetables-a{
     text-decoration:  none;
-    background-color: rgb(160, 244, 255);
+    background-color: #E7FAFE;
     color: rgb(0, 0, 0);
     padding: 15px 20px;
     border-radius: 10px;
@@ -216,8 +216,8 @@ i{
 .vegetables4,
 .vegetables5{
     border-radius: 40px;
-    width: 180px;
-    height: 255px;
+    width: 13.3%;
+    height: 12.5vw;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -258,11 +258,9 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 }
 
 .vegetables-img{
-    position: relative;
-    top: 15%;
-    left: 11%;
-    width: 134px;
-    height: 115px;
+    align-self: center;
+    width: 55.4%;
+    height: 5.98vw;
     overflow: hidden;
 }
 
@@ -287,6 +285,11 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
     margin-bottom: 3%;
 }
 
+.simpel-recipes-header p{
+    width: 37.4%;
+    margin-top: 2%;
+}
+
 .simpel-recipes-header-h1{
     margin: 0;
     font-size: 46px;
@@ -301,8 +304,8 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 }
 
 .simpel-recipes1{
-    width: 553px;
-    height: 530px;
+    width: 31.1%;
+    height: 26.01vw;
     margin-top: 3%;
     background: linear-gradient(180deg,rgba(231, 250, 254, 0) 0%, rgba(231, 250, 254, 1) 75%);
     border-radius: 40px;
@@ -354,13 +357,15 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 
 .simpel-recipes-img{
     position: relative;
-    left: 5.5%;
-    border-radius: 40px;
+    left: 4%;
+    border-radius: 20px;
 }
 
 .simpel-recipes-1{
-    margin-left: 6%;
-    margin-top: -2%;
+    position: relative;
+    bottom: 7%;
+    left: 5%;
+    font-size: 24px;
 }
 
 .simpel-recipes-box1{
@@ -368,13 +373,25 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
     justify-content: space-between;
     align-items: baseline;
     width: 55%;
-    margin-left: 6%;
+    position: relative;
+    top: 6%;
+    left: 6%;
+}
+
+.simpel-recipes-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 55%;
+    position: relative;
+    top: 12%;
+    left: 6%;
 }
 
 .simpel-recipes-pbox1{
     width: 50%;
-    font-size: 17px;
-    font-weight: 900;
+    font-size: 16px;
+    font-weight: 500;
     opacity: .6;
 }
 
