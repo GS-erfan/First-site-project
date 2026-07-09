@@ -104,14 +104,16 @@ i{
     margin-left: 6%;
     margin-top: 10%;
     width: 16%;
+    height: 2vw;
     padding: 5px 10px;
     border-radius: 40px;
 } 
 
 .small-box1-p{
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
+    align-self: center;
 }
 
 .small-box1-img{
@@ -404,18 +406,21 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 
 .chef-h1{
     margin-top: 27%;
-    font-size: 64px;
+    font-size: 48px;
+    width: 71%;
 }
 
 .chef-p{
     font-size: 20px;
+    margin-top: 4%;
+    margin-bottom: 8%;
 }
 
 .chef-a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    padding: 20px 40px;
+    padding: 25.5px 79.4px;
     border-radius: 20px;
     position: relative;
     top: 11%;
@@ -423,7 +428,7 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 
 .chef-img{
     position: relative;
-    background: linear-gradient(180deg,rgba(231, 250, 254, 0) 0%, rgba(231, 250, 254, 1) 70%);
+    background: linear-gradient(180deg,rgba(231, 250, 254, 0) 0%, rgba(231, 250, 254, 1) 75%);
     border-radius: 40px;
 }
 
@@ -474,7 +479,8 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 }
 
 .check-insta-header-p1{
-    font-size: 20px;
+    font-size: 16px;
+    margin-top: 3%;
 }
 
 .check-insta-header-h1{
@@ -482,7 +488,7 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 }
 
 .check-insta-header-img-1{
-    background: linear-gradient(180deg,rgba(222, 232, 197, 1) 36%, rgba(201, 252, 255, 1) 100%);
+    background: linear-gradient(180deg,rgba(231, 250, 254, 0) 0%, rgba(231, 250, 254, 1) 75%);
     height: 50rem;
 }
 
@@ -498,7 +504,7 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 }
 
 .check-insta-header-a2{
-    padding: 26px 35px;
+    padding: 19px 37.9px;
     width: 12%;
     border-radius: 20px;
     background-color: rgb(0, 0, 0);
@@ -513,7 +519,7 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 }
 
 .delicious-recipe-header{
-    width: 63%;
+    width: 87%;
     margin-left: 6%;
     margin-top: 10%;
     margin-bottom: 2%;
@@ -536,34 +542,43 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 }
 
 .delicious-recipe1{
-    width: 387px;
-    height: 415px;
+    width: 22.55%;
+    height: 21.9vw;
 }
 
 .delicious-recipe-box-1{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    width: 70%;
+    width: 71%;
+    margin-top: 10%;
 }
 
+.delicious-recipe-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 71%;
+    margin-top: 14.9%;
+}
 
 .delicious-recipe-box1{
     width: 70%;
-    font-size: 17px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 500;
     opacity: .7;
 }
 
 .delicious-recipe-box2{
     width: 50%;
-    font-size: 17px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 500;
     opacity: .7;
 }
 
 .delicious-recipe-1{
-    font-size: 20px;
+    font-size: 18px;
+    margin-top: 5%;
 }
 
 .delicious-recipe-img{
@@ -631,12 +646,12 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 }
 
 .bottom-box-input{
-    padding-bottom: 20%;
-    padding-top: 20%;
-    padding-left: 15%;
-    padding-right: 200%;
+    padding-bottom: 22.5%;
+    padding-top: 22.5%;
+    padding-left: 33%;
+    padding-right: 246%;
     margin-top: 52%;
-    margin-left: -100%;
+    margin-left: -142%;
     width: 100%;
     border: none;
     outline: none;
@@ -652,7 +667,7 @@ button{
     position: absolute;
     right: 3%;
     bottom: -155%;
-    padding: 27px 50px;
+    padding: 26.5px 77px;
     border: none;
     border-radius: 24px;
     color: rgb(255, 255, 255);
@@ -673,8 +688,8 @@ button:active{
 }
 
 .bottom-box-p{
-    font-size: 19px;
-    margin: 0;
+    font-size: 16px;
+    margin-top: 6%;
 }
 
 .footer{
