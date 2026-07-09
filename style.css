@@ -82,6 +82,13 @@ i{
 }
 
 .top-img-1{
+    position: absolute;
+    top: 12%;
+    left: 44%;
+    z-index: 1;
+}
+
+.top-img-2{
     position: relative;
     left: .5%;
     /* top: 12%;
