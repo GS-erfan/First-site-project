@@ -73,22 +73,28 @@ i{
     position: relative;
     margin-top: 3%;
     left: 5%;
-    border-radius: 40px;
+    border-radius: 46px;
     width: 90%;
-    height: 724px;
     overflow: hidden;
-    background-color:#E7FAFE;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .top-img-1{
     position: relative;
-    left: 5%;
+    left: .5%;
+    /* top: 12%;
+    width: 95.5%; */
 }
 
 .top-text{
     position: relative;
     top: 12%;
+    background-color: #E7FAFE;
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
 }
  
 .small-box1{
@@ -96,6 +102,7 @@ i{
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
     margin-left: 6%;
+    margin-top: 10%;
     width: 16%;
     padding: 5px 10px;
     border-radius: 40px;
@@ -114,22 +121,24 @@ i{
 }
 
 .top-text-h1{
-    font-size: 75px;
+    font-size: 60px;
     margin-left: 6%;
+    /* margin-top: 5%;
+    margin-bottom: 10%; */
 }
 
 .top-text-p{
     position: relative;
     bottom: 4%;
-    font-size: 22px;
+    font-size: 15px;
     margin-left: 6%;
 }
 
 .small2-box{
     position: relative;
     bottom: 4%;
-    margin-left: 56px;
-    width: 37%;
+    margin-left: 6%;
+    width: 27%;
     display: flex;
     justify-content: space-between;
 }
@@ -137,9 +146,9 @@ i{
     border-radius: 40px;
     width: 146%;
     padding: 10px 5px;
-    background-color: rgb(156, 156, 156);
+    background-color: #0000000D;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     flex-shrink: 0;
 }
 
@@ -147,17 +156,14 @@ i{
     border-radius: 40px;
     width: 146%;
     padding: 10px 5px;
-    background-color: rgb(156, 156, 156);
+    background-color: #0000000D;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     flex-shrink: 0;
-}
-.small2-box{
-    margin-left: 6%;
 }
 
 .id-instagram{
-    width: 90%;
+    width: 86%;
     height: 10%;
     margin-left: 6%;
     margin-top: 3%;
@@ -172,7 +178,7 @@ i{
     color: rgb(255, 255, 255);
     width: 17%;
     align-self: center;
-    padding: 25px 30px;
+    padding: 27px 72px;
     text-align: center;
     line-height: 50%;
     border-radius: 20px;
@@ -203,14 +209,44 @@ i{
     margin-top: 3%;
 }
 
-.vegetables1{
+.vegetables0,
+.vegetables1,
+.vegetables2,
+.vegetables3,
+.vegetables4,
+.vegetables5{
     border-radius: 40px;
     width: 180px;
     height: 255px;
     display: flex;
     flex-direction: column;
     justify-items: center;
-    background: linear-gradient(180deg,rgba(222, 232, 197, 1) 32%, rgba(171, 245, 255, 1) 100%);
+}
+
+.vegetables0{
+background: #70824600;
+background: linear-gradient(180deg, rgba(112, 130, 70, 0) 32%, rgba(243, 245, 240, 1) 79%);
+}
+
+.vegetables1{
+background: #a8db8f;
+background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(226, 237, 223, 1) 88%);
+}
+
+.vegetables2{
+background: #a8db8f;
+background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 223, 223, 1) 88%);
+}
+
+.vegetables3{
+    background: #a8db8f;
+background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 234, 223, 1) 88%);
+}
+
+.vegetables4,
+.vegetables5{
+background: #a8db8f;
+background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 237, 1) 88%);
 }
 
 .vegetables-p1{
@@ -268,9 +304,8 @@ i{
     width: 553px;
     height: 530px;
     margin-top: 3%;
-    background: linear-gradient(180deg,rgba(222, 232, 197, 1) 54%, rgba(186, 252, 255, 1) 100%);
+    background: linear-gradient(180deg,rgba(231, 250, 254, 0) 0%, rgba(231, 250, 254, 1) 75%);
     border-radius: 40px;
-
 }
 
 .simpel-recipes-2{
@@ -346,6 +381,7 @@ i{
 .chef{
     width: 90%;
     margin-left: 6%;
+    margin-top: 10%;
     display: flex;
 }
 
@@ -370,7 +406,7 @@ i{
 
 .chef-img{
     position: relative;
-    background: linear-gradient(180deg,rgba(222, 232, 197, 1) 54%, rgba(186, 252, 255, 1) 100%);
+    background: linear-gradient(180deg,rgba(231, 250, 254, 0) 0%, rgba(231, 250, 254, 1) 70%);
     border-radius: 40px;
 }
 
@@ -667,8 +703,11 @@ button:active{
 
 .end{
     width: 90%;
+    height: 4vw;
     margin-left: 6%;
-    margin-top: 3%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
 }
 
 .end-1{
@@ -679,10 +718,10 @@ button:active{
 }
 
 .end-icon{
-    position: relative;
-    left: 93rem;
-    bottom: 32px;
-    display: inline;
+    display: flex;
+    width: 21%;
+    gap: 100px;
+
 }
 
 .end-p{
