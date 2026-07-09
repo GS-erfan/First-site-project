@@ -606,7 +606,6 @@ background: linear-gradient(180deg, rgba(168, 219, 143, 0) 35%, rgba(237, 237, 2
 }
 
 .bottom-box{
-    border: 2px solid rgb(108, 241, 168);
     overflow: hidden;
     width: 90%;
     height: 507px;
