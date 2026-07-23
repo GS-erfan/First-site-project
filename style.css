@@ -25,7 +25,9 @@ body{
     flex-direction: column;
     font-family: sans-serif;
 }
-
+.container{
+    width:1900px;
+}
 .top-header{
     flex-basis: 100%;
     border-bottom: 1px solid rgb(176, 180, 173);
@@ -203,7 +205,9 @@ i{
     line-height: 50%;
     border-radius: 20px;
 }
-
+.vegetables{
+    width: 100%;
+}
 .header-vegetables{
     display: flex;
     justify-content: space-between;
